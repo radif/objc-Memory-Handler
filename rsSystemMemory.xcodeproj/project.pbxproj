@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49FFD96A1508629F00793691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49FFD9691508629F00793691 /* Foundation.framework */; };
+		49FFD96D1508629F00793691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FFD96C1508629F00793691 /* main.m */; };
+		49FFD9711508629F00793691 /* rsSystemMemory.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49FFD9701508629F00793691 /* rsSystemMemory.1 */; };
+		49FFD9851508657E00793691 /* rsMemoryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FFD9841508657E00793691 /* rsMemoryHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49FFD9631508629F00793691 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				49FFD9711508629F00793691 /* rsSystemMemory.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49FFD9651508629F00793691 /* rsSystemMemory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rsSystemMemory; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FFD9691508629F00793691 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49FFD96C1508629F00793691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49FFD96F1508629F00793691 /* rsSystemMemory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rsSystemMemory-Prefix.pch"; sourceTree = "<group>"; };
+		49FFD9701508629F00793691 /* rsSystemMemory.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = rsSystemMemory.1; sourceTree = "<group>"; };
+		49FFD9831508657E00793691 /* rsMemoryHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsMemoryHandler.h; sourceTree = "<group>"; };
+		49FFD9841508657E00793691 /* rsMemoryHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rsMemoryHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49FFD9621508629F00793691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FFD96A1508629F00793691 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49FFD95A1508629F00793691 = {
+			isa = PBXGroup;
+			children = (
+				49FFD9821508657E00793691 /* rsMemoryHandler */,
+				49FFD96B1508629F00793691 /* rsSystemMemory */,
+				49FFD9681508629F00793691 /* Frameworks */,
+				49FFD9661508629F00793691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49FFD9661508629F00793691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49FFD9651508629F00793691 /* rsSystemMemory */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49FFD9681508629F00793691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49FFD9691508629F00793691 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49FFD96B1508629F00793691 /* rsSystemMemory */ = {
+			isa = PBXGroup;
+			children = (
+				49FFD96C1508629F00793691 /* main.m */,
+				49FFD9701508629F00793691 /* rsSystemMemory.1 */,
+				49FFD96E1508629F00793691 /* Supporting Files */,
+			);
+			path = rsSystemMemory;
+			sourceTree = "<group>";
+		};
+		49FFD96E1508629F00793691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49FFD96F1508629F00793691 /* rsSystemMemory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49FFD9821508657E00793691 /* rsMemoryHandler */ = {
+			isa = PBXGroup;
+			children = (
+				49FFD9831508657E00793691 /* rsMemoryHandler.h */,
+				49FFD9841508657E00793691 /* rsMemoryHandler.m */,
+			);
+			name = rsMemoryHandler;
+			path = rsSystemMemory/rsMemoryHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49FFD9641508629F00793691 /* rsSystemMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FFD9741508629F00793691 /* Build configuration list for PBXNativeTarget "rsSystemMemory" */;
+			buildPhases = (
+				49FFD9611508629F00793691 /* Sources */,
+				49FFD9621508629F00793691 /* Frameworks */,
+				49FFD9631508629F00793691 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rsSystemMemory;
+			productName = rsSystemMemory;
+			productReference = 49FFD9651508629F00793691 /* rsSystemMemory */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49FFD95C1508629F00793691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 49FFD95F1508629F00793691 /* Build configuration list for PBXProject "rsSystemMemory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49FFD95A1508629F00793691;
+			productRefGroup = 49FFD9661508629F00793691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49FFD9641508629F00793691 /* rsSystemMemory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49FFD9611508629F00793691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FFD96D1508629F00793691 /* main.m in Sources */,
+				49FFD9851508657E00793691 /* rsMemoryHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49FFD9721508629F00793691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49FFD9731508629F00793691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49FFD9751508629F00793691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rsSystemMemory/rsSystemMemory-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49FFD9761508629F00793691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rsSystemMemory/rsSystemMemory-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49FFD95F1508629F00793691 /* Build configuration list for PBXProject "rsSystemMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FFD9721508629F00793691 /* Debug */,
+				49FFD9731508629F00793691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FFD9741508629F00793691 /* Build configuration list for PBXNativeTarget "rsSystemMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FFD9751508629F00793691 /* Debug */,
+				49FFD9761508629F00793691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49FFD95C1508629F00793691 /* Project object */;
+}
